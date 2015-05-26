@@ -1,0 +1,61 @@
+body{background: #eee}
+
+img{
+	width: 100%;
+}
+
+.appTitle{
+	font-size: 230%;
+}
+.appSubTitle{
+	font:italic 90% normal;
+}
+
+/* Aside */
+.sidebar{
+	background: #fff;
+	box-shadow:#ccc 0px 0px 4px;
+}
+
+/* profile */
+.profile{
+	width: 100%;
+}
+
+.profileImg{
+	background: url("../img/github_680.png") no-repeat center center;
+	background-size: 100%;
+	width: 98%;
+	min-height: 150px;
+	margin: 1%;
+	transition:0.5s ease all;
+}
+.profileImg:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.profile h2, .profile p, .profile footer{
+	padding: 12px 6%; 
+}
+.profile h2{
+	font-size: 120%;
+}
+.profile p{
+	font-size: 90%;
+	padding-top: 0;
+}
+
+.content{
+	background: #eee;
+}
+
+.boxPostTwo header{
+	background: #eee url("../img/responsive_web.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.footer{
+	padding:20px;
+	text-align: center;
+}

@@ -1,0 +1,41 @@
+.rwdMenu{display: none}
+
+/* pc´s */
+@media (max-width: 1024px){
+	
+}
+
+/* tablets */
+@media (max-width: 768px){
+	.container{
+		width: 90%;
+	}
+
+	.appTitle{
+		font-size: 180%;
+	}
+	.sidebar {
+		width: 100%;
+		float: none;
+	}
+	.content {
+		width: 100%;
+	}
+	.menu{
+		text-align: center;
+		height: 59px;
+	}
+	.itensMenu a {
+    	padding: 18px 18px;
+    	font-size: 120%;
+	}
+}
+
+/* Smartphone */
+@media (max-width: 480px){
+	.container{
+		width: 96%;
+	}
+	.rwdMenu{display: block;}
+	.menuAccessibility ul{display: none;}
+}

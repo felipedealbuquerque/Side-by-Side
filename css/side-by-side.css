@@ -1,0 +1,6 @@
+/* Side-By-Side Contrast */
+.contrast *{
+	background: #000 !important;
+	color:#fff !important;
+	opacity: 1 !important;
+}

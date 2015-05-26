@@ -1,0 +1,24 @@
+/* Menu de navegação principal */
+.accessibilityTools{
+	position: absolute;
+	background: #fff;
+	right: 0;
+	font-size: 90%;
+	transition:0.5s ease all;
+}
+
+.accessibilityTools li{
+	display: inline-block;
+}
+
+.accessibilityTools li a{
+	display: block;
+	padding:8px 12px;
+	text-decoration: none;
+	color:#000;
+	transition:0.5s ease all;
+}
+
+.accessibilityTools a:hover,.accessibilityTools a:focus{
+	background: #f9f9f9;
+}

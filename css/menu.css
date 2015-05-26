@@ -1,0 +1,49 @@
+/* Menu de navegação */
+
+/* Focus for people whith the low vision */
+:focus{
+	outline:4px dashed yellow;
+}
+
+.menu{
+	background: #fff;
+	box-shadow:#ccc 0px 0px 4px;
+	height: 43px;
+}
+.itensMenu{
+	display: inline-block;
+	position: relative;
+}
+
+.itensMenu a{
+	display: block;
+	padding:12px;
+	text-decoration: none;
+	color:#000;
+	transition:0.5s ease all;
+}
+
+.itensMenu a:hover,.itensMenu a:focus{
+	background: #f9f9f9;
+	color:#fff;
+	text-shadow:#000 0 0 3px;
+}
+
+.menu li ul{
+	position: absolute;
+	background: #fff;
+	z-index: 1;
+	top: auto;
+}
+.menu li ul li{
+	border-bottom: 1px solid #ccc;
+}
+.itensMenu:hover ul{
+	display: block !important;
+}
+
+.itensMenu ul li a:hover{
+	background: #ccc;
+	color:#fff;
+	text-shadow:#000 0 0 3px;
+}

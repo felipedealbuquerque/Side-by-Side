@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Accessibility and js: side by side for jSConf US 2015</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Felipe de Albuquerque" />
+		<meta name="description" content="Palestra sobre acessibilidade e javaScript, para o maior evento de javaScript do mundo" />
+		<meta name="keywords" content="javaScript, jsConf, jsConfUS, html5, CSS3, acessibilidade, web aplications" />
+		<!-- Styles -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css" /> 
+		<link rel="stylesheet" type="text/css" href="css/estrutura.css" />
+		<link rel="stylesheet" type="text/css" href="css/menuAcessibility.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/myStyles.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+		<link rel="stylesheet" type="text/css" href="css/side-by-side.css" />
+	</head>
+	<body>
+	<!-- At least a gentle fallback for users  -->
+	<!--[if IE 6]>
+		<a href="#"> 
+			We do not give support for that version of your browser, 
+			please upgrade your browser or use another browser
+ 		</a>
+	<![endif]-->
+		<main role="application" class="container">
+			<nav id="accessibilityTools" class="accessibilityTools showAccessibilityTools" tabindex="0">
+				<ul>
+					<li><a class="SkipNavigation" href="#content" aria-label="Go to content">Go to content</a></li>
+					<li><a class="SkipNavigation" href="#navMenu" aria-label="Go to menu">Go to menu</a></li>
+					<li><button type="button" class="DecreaseText"  aria-label="Decrease font size" title="Decrease font size">-</button></li>
+					<li><button type="button" class="standardText" aria-label="Default font size" title="Default font size">A</button></li>
+					<li><button type="button" class="IncreaseText" aria-label="Increase font size" title="Increase font size">+</button></li>
+					<li><button type="button" class="contrast"  aria-label="Change the contrast">Contrast</button></li>
+					<li><a href="acessibility.html" accesskey="a" aria-label="More about Accessibilidade">Accessibility</a></li>
+				</ul>
+			</nav>
+			<header class="appHeader" roler="banner">
+				<h1 class="appTitle">Side By Side</h1>
+				<h2 class="appSubTitle">Plugin de jQuery para o jsConf 2015</h2>
+			</header>
+			<button type="button" class="rwdMenu">Menu</button>
+			<nav role="navigation" aria-label="Primary Navigation" tabindex="0" id="navMenu" class="menu">
+				<ul>
+					<li class="itensMenu"><a href="index.html" aria-label="go to home">Home</a></li>
+					<li class="itensMenu"><a href="about.html" aria-label="go to about">About</a></li>
+					<li class="itensMenu" aria-haspopup="true">
+						<a href="#">Iten with sub menu</a>
+						<ul class="submenu">
+							<li><a href="#">Sub Iten 1</a></li>
+							<li><a href="#">Sub Iten 2</a></li>
+							<li><a href="#">Sub Iten 3</a></li>
+						</ul>
+					</li>
+					<li class="itensMenu"><a href="contato.html" aria-label="Contact">Contact</a></li>
+				</ul>
+			</nav>
+			<aside role="complementary" tabindex="0" class="sidebar">
+				<section class="profile">
+					<header role="img" aria-label="imagem description" class="profileImg">
+						
+					</header><!-- /header -->
+					<h2>On GitHub</h2>
+					<p>Code available on GitHub</p>
+					<footer>
+						<a href="#" target="_blank" class="readMore" aria-label="download side-by-side plugin created for JS Conference 2015">		Download
+						</a>
+					</footer>
+				</section>
+			</aside>
+			<section id="content" aria-live="polite" tabindex="0" class="content">
+				<article role="article" class="boxPost">
+					<header>
+						<h3>Summary</h3>
+					</header><!-- /header -->
+					<p>Throughout history, JS has been pointed out as the villain when the matter is accessible websites.</p>
+					<p>By presenting some tricks and techniques, we plan to provoke this discussion among developers, and show that Accessibility and JS may live together as long as you take the right steps.</p>
+					<footer>
+						<a href="#" class="readMore nextAsync">Play</a>
+					</footer>
+				</article>
+			</section>
+			<footer class="footer" role="contentinfo">
+				<address>
+					fa@cesar.org.br
+				</address>
+			</footer>
+		</main>
+		<a class="SkipNavigation" href="#accessibilityTools" aria-label="Go to top">Go to top</a>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-2.1.3.min.js">\x3C/script>')</script>
+		<script src="js/sideBySide.js"></script>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+	font-family: Tahoma, verdana;
+	font-size: 100%;
+}
+
+.appHeader{
+	padding: 45px 14px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.appSubTitle{
+	font-size: 80%;
+}
+
+
+/* Aside */
+.sidebar{
+	width: 25%;
+	float: left;
+	margin-top: 2%;
+}
+
+.content{
+	background: #eee;
+	width: 73%;
+	float: right;
+	margin-top: 2%;
+}
+
+.boxContent{
+	min-height: 700px;
+	background: #fff
+}
+
+.boxContent h3{
+	background: #eee;
+	width: 96%;
+}
+.boxContent h3, .boxContent p, .boxContent footer{padding: 2%;}
+
+.boxPost,.boxContent{
+	background: #fff;
+	box-shadow:#ccc 0px 0px 4px;
+	margin-bottom:4%;
+}
+.boxPost header{
+	background: #eee url("../img/banner-side-by-side.jpg") no-repeat center center;
+	background-size: cover;
+	min-height: 180px;
+	position: relative;
+	transition:0.5s ease all;
+}
+.boxPost h3{
+	background: #fff;
+	width: 96%;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	padding: 2%;
+	opacity: 0.8;
+}
+
+.boxPost footer,.profile footer{
+	background: #f9f9f9;
+	text-align: right;
+}
+
+.readMore{
+	color:#ccc;
+	transition:0.5s ease all;
+}
+.readMore:hover{
+	color:#000;
+}
+
+.boxPost header,.boxPost p, .boxPost footer{
+	padding: 2%;
+}
+
+.footer{
+	float: none;
+	clear: both;
+	text-align: center;
+	background: #f9f9f9;
+	margin-bottom: 2%;
+	opacity: 0.4;
+	transition:0.5s ease all;
+}
+
+.footer:hover{opacity: 0.9;}
