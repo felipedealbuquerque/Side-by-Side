@@ -1,4 +1,4 @@
-# O Side-by-Side.js
+# Side-by-Side.js
 É um pequeno framework que propõe melhorar a acessibilidade em websites, e em qualquer aplicação que use JavaScript, HTML5 e CSS.
 
 Qualquer pessoa ou empresa podem usar o Side-by-Side.js e todos os códigos e exemplos que vamos postar aqui, são totalmente de graça. 
